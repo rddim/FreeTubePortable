@@ -8,18 +8,18 @@ LICENSE
 
 This package's installer and launcher are released under the GPL. The launcher
 is the PortableApps.com Launcher, available with full source and documentation
-from http://portableapps.com/development. We request that developers using the
+from https://portableapps.com/development. We request that developers using the
 PortableApps.com Launcher please leave this directory intact and unchanged.
 
 USER CONFIGURATION
 ==================
 
 Some configuration in the PortableApps.com Launcher can be overridden by the
-user in an INI file next to HostsManPortable.exe called HostsManPortable.ini.
+user in an INI file next to FreeTubePortable.exe called FreeTubePortable.ini.
 If you are happy with the default options, it is not necessary, though.  There
 is an example INI included with this package to get you started.  To use it,
-copy AppNamePortable.ini from this directory to HostsManPortable.ini next to
-HostsManPortable.exe. The options in the INI file are as follows:
+copy AppNamePortable.ini from this directory to FreeTubePortable.ini next to
+FreeTubePortable.exe. The options in the INI file are as follows:
 
    AdditionalParameters=
    DisableSplashScreen=false
