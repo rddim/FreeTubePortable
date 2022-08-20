@@ -18,8 +18,8 @@ Some configuration in the PortableApps.com Launcher can be overridden by the
 user in an INI file next to FreeTubePortable.exe called FreeTubePortable.ini.
 If you are happy with the default options, it is not necessary, though.  There
 is an example INI included with this package to get you started.  To use it,
-copy AppNamePortable.ini from this directory to FreeTubePortable.ini next to
-FreeTubePortable.exe. The options in the INI file are as follows:
+copy FreeTubePortable.ini from this directory next to FreeTubePortable.exe. The
+options in the INI file are as follows:
 
    AdditionalParameters=
    DisableSplashScreen=false
@@ -29,7 +29,8 @@ FreeTubePortable.exe. The options in the INI file are as follows:
 won't damage anything.)
 
 The AdditionalParameters entry allows you to pass additional command-line
-parameters to the application.
+parameters to the application. Here you can add the --no-sandbox parameter,
+which will allow you to use the app from UNC. Use it at your own risk!
 
 The DisableSplashScreen entry allows you to run the launcher without the splash
 screen showing up.  The default is false.
